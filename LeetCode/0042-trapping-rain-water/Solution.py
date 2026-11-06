@@ -24,8 +24,3 @@ class Solution:
             water += min(left[i],right[i]) - height[i]
 
         return water
-
-
-
-
-
