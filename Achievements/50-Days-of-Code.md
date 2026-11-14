@@ -3,6 +3,10 @@
 
 Successfully completed the 50 Days of Code challenge.
 
+## Certificate
+
+  leetcode 50 days badge.png
+
 ### Highlights
 - Maintained consistent coding practice.
 - Strengthened programming fundamentals.
