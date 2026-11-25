@@ -7,12 +7,13 @@ class Solution:
         for num in nums:
             prefix_sum += num
 
-            remaining = prefix_sum - k
+            rem = prefix_sum - k
 
-            if remaining in freq :
-                count += freq[remaining]
+            if rem in freq:
+                count += freq[rem]
 
             freq[prefix_sum] = freq.get(prefix_sum,0) + 1
 
         return count
+
         
